@@ -30,7 +30,7 @@ function DeleteTask() {
              <input type='number'{...register("e")} />
                 <p>{errors.e?.message}</p>
                 <p> {mes} </p>
-                <input type='submit'/>
+                <input value="Delete" type='submit'/>
              </form>
          </div>
     )

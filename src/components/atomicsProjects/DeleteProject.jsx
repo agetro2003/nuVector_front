@@ -33,7 +33,7 @@ function DeleteProject(){
              <input type='number'{...register("c")} />
                 <p>{errors.c?.message}</p>
                 <p> {mes} </p>
-                <input type='submit'/>
+                <input value="Delete" type='submit'/>
              </form>
          </div>
     )

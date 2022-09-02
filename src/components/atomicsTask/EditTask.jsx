@@ -152,7 +152,7 @@ alert("recibido")
                     <textarea {...register("description")}/>
                     <p>{errors.description?.message } </p> 
                 </div>
-                <input type='submit' value='Add'/>
+                <input type='submit' value='Edit'/>
       </form>  
       </div>
         
