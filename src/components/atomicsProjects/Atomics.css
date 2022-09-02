@@ -1,0 +1,16 @@
+.F{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    background-color: antiquewhite;
+    height: 750px;
+}
+
+
+
+.C{
+    display: flex;
+
+}

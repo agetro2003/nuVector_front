@@ -1,0 +1,13 @@
+.Bar {
+    display: flex;
+}
+
+.Fill{
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    background-color: antiquewhite;
+    
+}

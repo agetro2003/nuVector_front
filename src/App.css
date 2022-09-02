@@ -1,0 +1,30 @@
+.header {
+background-color: orange;
+display: flex; 
+justify-content: space-between;
+padding: 20px;
+align-items: center;
+
+}
+.welcome {
+     margin-top: 30px;
+     font-size: 72px;
+}
+.buttons {
+    display: flex;
+    margin: 30px;
+    height: 50px;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.background {
+    background-color: beige;
+}
+
+.forms {
+    margin: 250px;
+    display: flex;
+    justify-content: center
+    
+}

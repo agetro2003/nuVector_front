@@ -1,0 +1,19 @@
+
+
+
+.container {
+  display: flex;
+  margin: 0;
+  border: 0;
+
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    justify-content: space-around;   
+    padding: 20px;
+    border-color: black;
+    height: 948px;
+}
+

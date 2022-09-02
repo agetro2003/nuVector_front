@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    margin-bottom: 20px;
+flex-direction: column;
+}
+.h {
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    margin: 10px;
+    justify-content:flex-end;
+    
+}
+
+.submit {
+  padding: 10px 15px;
+  color: blue;
+    margin-left: 375px;
+}

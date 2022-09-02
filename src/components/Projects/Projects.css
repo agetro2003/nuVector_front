@@ -1,0 +1,8 @@
+.H {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: yellow;
+padding: 20px;
+width: 1712px;
+}
