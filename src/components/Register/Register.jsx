@@ -4,6 +4,7 @@ import * as yup from "yup";
 import instance from "../../../axios/instance";
 import apiDB from "../../../axios/apiDB";
 import './Register.css'
+import { useState } from "react";
 
 const schema = yup.object().shape({
     email: yup.string().email().required(),
@@ -16,13 +17,19 @@ export default function Register(){
     const {register, formState:{errors}, handleSubmit} = useForm({
         resolver: yupResolver(schema)
     }); 
+    let [ver,setVer] = useState("")
 
     const fnSend = async(data) =>{
+        setVer("Cargando")
+
+
         try {
-           await instance.post(apiDB.registerUser+`?email=${data.email}&username=${data.username}&password=${data.password}`)
-        alert("registro exitoso");   
+           setVer("Registro exitoso")  
+            await instance.post(apiDB.registerUser+`?email=${data.email}&username=${data.username}&password=${data.password}`)
+          
         } catch (error) {
             console.log(error)
+            
         }
       
     }
@@ -55,6 +62,7 @@ return (
      </div> 
      <input className="submit" type="submit" value="Register"/>
      </form>
+     <label> {ver} </label>
     </div>
 )
 }
